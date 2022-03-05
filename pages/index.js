@@ -1,7 +1,8 @@
+import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div><h1>
+    <div className={styles.fstDiv}><h1>
       ALL-IN-ONE SOLUTION
 FOR RESTAURANTS
       </h1>

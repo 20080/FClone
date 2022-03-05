@@ -7,12 +7,18 @@
   width: 100%;
   height: 13.2%;
   padding-left:50px;
+  top:0;  
+  transition: top 0.3s;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   border-bottom: #202020 solid 1px;
   font-family: "Oswald", Sans-serif;
   position: fixed;
+}
+nav.scroll{
+  transition: top 0.3s;
+  top: -100px;
 }
 .nav a{
   text-decoration: none;
@@ -97,12 +103,13 @@
 
 .nav .list{
   position: fixed;
-  left: -100%;
+  left: 768px;
   flex-direction: column;
-  width: auto;
+  width:535px;
   height: auto;
   top: 0;
   border: #202020 solid 1px;
+  padding-bottom: 15px;
   text-align: justify;
   align-items: flex-start;
   transition: 0.3s;
